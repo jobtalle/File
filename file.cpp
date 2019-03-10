@@ -3,8 +3,6 @@
 
 #include <fstream>
 
-using namespace LGen;
-
 const std::string File::CONNECTIVE = ":";
 const std::string File::CONNECTIVE_FORMATTED = ": ";
 const std::string File::BLOCK_START = "{";
