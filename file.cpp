@@ -28,7 +28,7 @@ File::File(const std::string &file) {
 }
 
 File::File(std::vector<std::string>::const_iterator &line) {
-	while(*line != BLOCK_CLOSE)
+	while(Utils::String::trim(*line) != BLOCK_CLOSE)
 		read(line);
 
 	++line;
